@@ -1,4 +1,4 @@
-# Rocketseat Challenge
+# Challenge taken from Rocketseat website
 ## If you want to view the challenge on the Rocketseat website, <a href="https://app.rocketseat.com.br/discover/challenges/social-tree" > click here </a>
 ---
 
