@@ -1,0 +1,35 @@
+.Button{
+    display: inline-block;
+    border: 2px solid var(--purple);
+    color: var(--purple);
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    padding: 11px 126px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: all .6s;
+}
+
+.Button:hover{
+    color: white;
+}
+
+.Button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--purple);
+    z-index: -1;
+    transition: all .6s ease-in-out;
+}
+
+.Button:hover::before{
+    width: 100%;
+}
